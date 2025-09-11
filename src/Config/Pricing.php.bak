@@ -1,0 +1,261 @@
+<?php
+
+namespace VizraAi\AiTokens\Config;
+
+class Pricing
+{
+    public const LAST_UPDATED = '2025-01-04';
+
+    public const PRICING_DATA = [
+        // OpenAI Models
+        'gpt-3.5-turbo' => [
+            'input_price_per_million' => 0.50,
+            'output_price_per_million' => 1.50,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 4096,
+        ],
+        'gpt-4' => [
+            'input_price_per_million' => 30.00,
+            'output_price_per_million' => 60.00,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 8192,
+        ],
+        'gpt-4-turbo' => [
+            'input_price_per_million' => 10.00,
+            'output_price_per_million' => 30.00,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 128000,
+        ],
+        'gpt-4o' => [
+            'input_price_per_million' => 2.50,
+            'output_price_per_million' => 10.00,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 128000,
+        ],
+        'gpt-4o-mini' => [
+            'input_price_per_million' => 0.15,
+            'output_price_per_million' => 0.60,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 128000,
+        ],
+        'chatgpt-4.1' => [
+            'input_price_per_million' => 2.00,
+            'output_price_per_million' => 8.00,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 128000,
+        ],
+        'chatgpt-4.1-mini' => [
+            'input_price_per_million' => 0.40,
+            'output_price_per_million' => 1.60,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 128000,
+        ],
+        'chatgpt-o1' => [
+            'input_price_per_million' => 15.00,
+            'output_price_per_million' => 60.00,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 128000,
+        ],
+        'chatgpt-o3' => [
+            'input_price_per_million' => 10.00,
+            'output_price_per_million' => 40.00,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 128000,
+        ],
+        'chatgpt-o3-mini' => [
+            'input_price_per_million' => 1.10,
+            'output_price_per_million' => 4.40,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 128000,
+        ],
+
+        // Anthropic Claude Models
+        'claude-3-haiku' => [
+            'input_price_per_million' => 0.25,
+            'output_price_per_million' => 1.25,
+            'chars_per_token' => 3.5,
+            'max_tokens' => 200000,
+        ],
+        'claude-3-sonnet' => [
+            'input_price_per_million' => 3.00,
+            'output_price_per_million' => 15.00,
+            'chars_per_token' => 3.5,
+            'max_tokens' => 200000,
+        ],
+        'claude-3.5-sonnet' => [
+            'input_price_per_million' => 3.00,
+            'output_price_per_million' => 15.00,
+            'chars_per_token' => 3.5,
+            'max_tokens' => 200000,
+        ],
+        'claude-3.7-sonnet' => [
+            'input_price_per_million' => 3.00,
+            'output_price_per_million' => 15.00,
+            'chars_per_token' => 3.5,
+            'max_tokens' => 200000,
+        ],
+        'claude-4-sonnet' => [
+            'input_price_per_million' => 3.00,
+            'output_price_per_million' => 15.00,
+            'chars_per_token' => 3.5,
+            'max_tokens' => 200000,
+        ],
+
+        // Google Gemini Models
+        'gemini-2.0-flash' => [
+            'input_price_per_million' => 0.10,
+            'output_price_per_million' => 0.40,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 1000000,
+        ],
+        'gemini-2.0-flash-lite' => [
+            'input_price_per_million' => 0.075,
+            'output_price_per_million' => 0.30,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 1000000,
+        ],
+        'gemini-2.5-flash' => [
+            'input_price_per_million' => 0.15,
+            'output_price_per_million' => 0.60,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 1000000,
+        ],
+        'gemini-2.5-pro' => [
+            'input_price_per_million' => 1.25,
+            'output_price_per_million' => 10.00,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 2000000,
+        ],
+
+        // DeepSeek Models
+        'deepseek-v3' => [
+            'input_price_per_million' => 0.27,
+            'output_price_per_million' => 1.10,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 64000,
+        ],
+        'deepseek-r1' => [
+            'input_price_per_million' => 0.55,
+            'output_price_per_million' => 2.19,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 64000,
+        ],
+
+        // Mistral Models
+        'mistral-3.1-small' => [
+            'input_price_per_million' => 0.10,
+            'output_price_per_million' => 0.30,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 128000,
+        ],
+
+        // Grok Models
+        'grok-3' => [
+            'input_price_per_million' => 3.00,
+            'output_price_per_million' => 15.00,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 128000,
+        ],
+        'grok-3-mini' => [
+            'input_price_per_million' => 0.30,
+            'output_price_per_million' => 0.50,
+            'chars_per_token' => 4.0,
+            'max_tokens' => 128000,
+        ],
+    ];
+
+    private static ?\VizraAi\AiTokens\PricingClient $client = null;
+    private static ?array $remotePricing = null;
+    
+    /**
+     * Get pricing client instance
+     */
+    private static function getClient(): \VizraAi\AiTokens\PricingClient
+    {
+        if (self::$client === null) {
+            self::$client = new \VizraAi\AiTokens\PricingClient();
+        }
+        return self::$client;
+    }
+    
+    /**
+     * Get model pricing with remote fetching fallback
+     */
+    public static function getModelPricing(string $model): ?array
+    {
+        // Try remote pricing first if enabled
+        $remotePricing = self::getRemotePricing();
+        if ($remotePricing !== null && isset($remotePricing[$model])) {
+            return $remotePricing[$model];
+        }
+        
+        // Fall back to local pricing
+        return self::PRICING_DATA[$model] ?? null;
+    }
+    
+    /**
+     * Get all pricing data (remote first, then local)
+     */
+    public static function getAllPricing(): array
+    {
+        $remotePricing = self::getRemotePricing();
+        if ($remotePricing !== null) {
+            return $remotePricing;
+        }
+        
+        return self::PRICING_DATA;
+    }
+    
+    /**
+     * Get remote pricing data (cached)
+     */
+    private static function getRemotePricing(): ?array
+    {
+        if (self::$remotePricing === null) {
+            $client = self::getClient();
+            self::$remotePricing = $client->fetchRemotePricing();
+        }
+        return self::$remotePricing;
+    }
+    
+    /**
+     * Get supported models
+     */
+    public static function getSupportedModels(): array
+    {
+        $allPricing = self::getAllPricing();
+        return array_keys($allPricing);
+    }
+    
+    /**
+     * Get last updated date
+     */
+    public static function getLastUpdated(): string
+    {
+        return self::LAST_UPDATED;
+    }
+    
+    /**
+     * Clear remote pricing cache
+     */
+    public static function clearCache(): void
+    {
+        self::$remotePricing = null;
+        if (self::$client !== null) {
+            self::$client->clearCache();
+        }
+    }
+    
+    /**
+     * Configure pricing client
+     */
+    public static function configure(array $config): void
+    {
+        $client = self::getClient();
+        foreach ($config as $key => $value) {
+            $client->setConfig($key, $value);
+        }
+        // Clear cached remote pricing when config changes
+        self::$remotePricing = null;
+    }
+}

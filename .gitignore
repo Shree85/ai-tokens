@@ -1,0 +1,31 @@
+# Composer
+/vendor/
+composer.phar
+
+# PHP
+*.log
+*.cache
+.phpunit.result.cache
+.phpunit.cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+/coverage/
+/build/
+/reports/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+/tmp/
+*.tmp
