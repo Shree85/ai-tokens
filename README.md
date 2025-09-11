@@ -53,37 +53,28 @@ $result = TokenCounter::estimateCost([
 
 ## Supported Models
 
+The package supports 100+ models across major AI providers:
+
 ### OpenAI
-- `gpt-3.5-turbo`
-- `gpt-4`
-- `gpt-4-turbo`
-- `gpt-4o`
-- `gpt-4o-mini`
-- `chatgpt-4.1`
-- `chatgpt-4.1-mini`
-- `chatgpt-o1`
-- `chatgpt-o3`
-- `chatgpt-o3-mini`
+- GPT-4o series (`gpt-4o`, `gpt-4o-mini`, `gpt-4o-realtime`)
+- GPT-4 series (`gpt-4`, `gpt-4-turbo`)
+- GPT-3.5 (`gpt-3.5-turbo`)
+- ChatGPT models (`chatgpt-4o-latest`, `o1`, `o3` series)
 
 ### Claude (Anthropic)
-- `claude-3-haiku`
-- `claude-3-sonnet`
-- `claude-3.5-sonnet`
-- `claude-3.7-sonnet`
-- `claude-4-sonnet`
+- Claude 3.5 Sonnet (`claude-3-5-sonnet-20241022`)
+- Claude 3 series (Opus, Sonnet, Haiku)
 
-### Google Gemini
-- `gemini-2.0-flash`
-- `gemini-2.0-flash-lite`
-- `gemini-2.5-flash`
-- `gemini-2.5-pro`
+### Google
+- Gemini 2.0 Flash (`gemini-2.0-flash-exp`, `gemini-2.0-flash-thinking-exp`)
+- Gemini 1.5 Pro & Flash series
 
 ### Others
-- `deepseek-v3`
-- `deepseek-r1`
-- `mistral-3.1-small`
-- `grok-3`
-- `grok-3-mini`
+- DeepSeek (`deepseek-v3`, `deepseek-r1`, `deepseek-r1-lite`)
+- Mistral models
+- Llama 3.1 & 3.2 series
+- Grok models
+- ...and many more
 
 ### Utility Methods
 
