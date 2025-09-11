@@ -1,5 +1,6 @@
 {
     "name": "vizra-ai/ai-tokens",
+  "version": "0.0.1",
     "description": "Estimate AI API costs before making expensive calls",
     "type": "library",
     "keywords": ["ai", "tokens", "cost", "estimation", "openai", "claude", "laravel", "api", "pricing", "llm", "gpt", "anthropic", "token-counter", "cost-calculator", "api-cost", "php"],
@@ -7,6 +8,7 @@
     "authors": [
         {
             "name": "Aaron Lumsden",
+  "version": "0.0.1",
             "email": "aaronlumsden@me.com"
         }
     ],
