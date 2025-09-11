@@ -29,3 +29,6 @@ composer.phar
 # Temporary files
 /tmp/
 *.tmp
+
+# Release scripts (local only)
+scripts/release.sh
